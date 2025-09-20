@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teléfono Saltador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="game-container">
+        <div id="score-display">Puntos: <span id="score">0</span></div>
+	<div id="money-display">💰 <span id="money-count">0</span></div>
+        <div id="character"></div>
+        <div id="start-screen" class="screen">
+            <h1>Teléfono Saltador</h1>
+            <p>Presiona 'Espacio' para saltar y empezar</p>
+            <p>Esquiva las carpetas y recoge las bolsas de dinero</p>
+        </div>
+        <div id="game-over-screen" class="screen" style="display: none;">
+            <h1>¡Juego Terminado!</h1>
+            <p>Puntaje Final: <span id="final-score">0</span></p>
+            <button id="restart-button">Jugar de Nuevo</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
